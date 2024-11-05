@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header start */
+.Menu {
+    background: rgb(27, 89, 131);
+    overflow: hidden;
+    padding: 1% 5%;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo {
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+.logo img {
+    width: 5rem;
+    height: 5rem;
+
+}
+.logo .one {
+    color: #fb545c;
+    font-weight: bolder;
+}
+.logo .two {
+    color: #96ff96;
+
+} 
+.logo .three {
+    color: #fdc72e;
+}
+
+.header {
+    width: 37%;
+    color: bisque;
+    text-align: end;
+    float: left;
+}
+.header h1 {
+    margin-top: 30px;
+    font-size: 36px;
+}
+.menu-area {
+    width: 48%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.menu-area a {
+    margin: 30px 0px 0 4px;
+    padding: 8px;
+    color: bisque;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.menu-area a:hover {
+    background-color: rgb(23, 124, 94);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.Menu::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* Header End */
+
+/* Main start */
+.Main {
+    padding: 2% 7%;
+    overflow: hidden;
+    position: relative;
+}
+.Main .top-image { 
+    overflow: hidden;
+    width: 100%;
+}
+.Main .top-image img {
+    width: 100px;
+    height: 100px;
+    float: right;
+    transition: 1.5s;
+}
+.Main .top-image img:hover {
+    transform: rotate(360deg);
+}    
+
+.Main .Center-Head {
+    text-align: center;
+    transition: 1.25s; 
+}
+.Main .Center-Head .transform {
+    width: 50%;
+    margin: auto;
+    transition: 1.25s;
+    
+}
+.Main .Center-Head .transform:hover {
+    transform: scale(1.25);
+}
+
+.Main .Center-Head h1 {
+    margin: 1rem 0 1rem 0;
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 45px;
+}
+
+.Main .Center-Head p {
+    color: grey;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+}
+
+.Main .bottom-image {
+    overflow: hidden;
+}
+.Main .bottom-image img {
+    width: 100px;
+    height: 100px;
+    margin: 2rem 0 1rem 0;
+    transition: 1.5s;
+}
+.Main .bottom-image img:hover {
+    transform: rotate(-360deg);
+}
+
+/* Main End */
+
+/* Main-2 Start */
+.Main-2 {
+    background-color: rgb(14, 152, 170);
+    padding: 2% 7%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Main-2 .head {
+    padding: 10px;
+    overflow: hidden;
+    display: block;
+}
+.Main-2 .head h1 {
+    color: #d3e90e;
+    text-decoration-line: underline;
+}
+
+.Main-2 .image {
+    padding: 10px;
+    float: left;
+    width: 50%;
+}
+.Main-2 .image img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.Main-2 .w-50 {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.Main-2 .pera-one {
+    color: beige;
+    margin-top: 25px;
+}
+.Main-2 .pera .pera-two{
+    color: beige;
+    margin-top: 20px;
+}
+.Main-2 hr {
+    margin-top: 20px;
+    color: beige;
+}
+.Main-2 .information p {
+    margin-top: 12px;
+    display: inline-block;
+    color: beige;
+}
+.information a button {
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: rgba(20, 97, 110, 0.616);
+    color: antiquewhite;
+}
+/* Main-2 End */
+
+/* professional-experience start */
+.professional-experience {
+    padding: 1% 2%;
+    overflow: hidden;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.professional-experience .col-4 {
+    float: left;
+    
+    width: 32%;
+    margin: 0 5px;
+}
+.professional-experience .work-experience {
+    background-color: gray;
+    text-align: center;
+    border-radius: 4px;
+    transition: 0.85s;
+    height: 480px;
+}
+.professional-experience .work-experience:hover {
+    box-shadow: 5px 10px 10px 5px black;
+}
+
+
+.professional-experience .work-experience .card-1 {
+    padding: 5px;
+}
+
+.professional-experience .work-experience .icon {
+    padding: 3% 0;
+}
+.professional-experience .work-experience .icon img {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.professional-experience .work-experience .title {
+    background-color: rgb(48, 44, 44);
+    color: antiquewhite;
+}
+
+.list {
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+}
+.professional-experience hr {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.professional-experience .education-experience {
+    background-color: gray;
+    text-align: center;
+    border-radius: 4px;
+    transition: 0.85s;
+    height: 480px;
+}
+.professional-experience .education-experience:hover {
+    box-shadow: 5px 10px 10px 5px black;
+}
+
+
+.professional-experience .education-experience .card-2 {
+    padding: 5px;
+}
+
+.professional-experience .education-experience .icon {
+    padding: 3% 0;
+}
+.professional-experience .education-experience .icon img {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.professional-experience .education-experience .title {
+    background-color: rgb(48, 44, 44);
+    color: antiquewhite;
+
+    font-size: 15px;
+}
+
+.list {
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+
+.professional-experience .skill-experience {
+    background-color: gray;
+    text-align: center;
+    border-radius: 4px;
+    transition: 0.85s;
+    height: 480px;
+}
+.professional-experience .skill-experience:hover {
+    box-shadow: 5px 10px 10px 5px black;
+}
+
+
+.professional-experience .skill-experience .card-3 {
+    padding: 5px;
+}
+
+.professional-experience .skill-experience .icon {
+    padding: 3% 0;
+}
+.professional-experience .skill-experience .icon img {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.professional-experience .skill-experience .title {
+    background-color: rgb(48, 44, 44);
+    color: antiquewhite;
+}
+
+.skill-experience .list li {
+    margin: 30px 0;
+    position: relative;
+}
+
+.skill-experience .list li::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0%;
+    width: 100%;
+    background: rgb(144, 133, 207);
+    height: 18px;
+    border-radius: 1000px;
+}
+.skill-experience .list li::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0%;
+    width: 100%;
+    background: rgb(49, 44, 77);;
+    height: 18px;
+    border-radius: 1000px;
+}
+
+.skill-experience  .list li::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0%;
+    width: 0%;
+    background: rgb(49, 44, 77);
+    height: 18px;
+    border-radius: 1000px;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+.skill-experience .list  .html::after {
+    animation-name: html;
+}
+@keyframes html{
+    to {
+        width: 90%;
+    }
+}
+
+.skill-experience .list .css::after {
+    animation-name: css;
+}
+@keyframes css{
+    to {
+        width: 80%;
+    }
+}
+.skill-experience .list .java::after {
+    animation-name: java;
+}
+@keyframes java{
+    to {
+        width: 50%;
+    }
+}
+.skill-experience .list .boost::after {
+    animation-name: boost;
+}
+@keyframes boost{
+    to {
+        width: 70%;
+    }
+}
+.skill-experience .list .jquary::after {
+    animation-name: jquary;
+}
+@keyframes jquary{
+    to {
+        width: 30%;
+    }
+}
+/* professional-experience End */
+
+/* Contact-Me-start */
+.Contact-Me {
+    background-color: cadetblue;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1% 5%;
+    text-align: center;
+    overflow: hidden;
+}
+.Contact-Me .contact {
+    float: left;
+    width: 50%;
+}
+
+.contact h1 {
+    color: #921b35;
+    border-bottom: 5px dotted #fff ;
+    display: inline-block;
+}
+
+.Contact-Me .contact input, textarea {
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 0.5rem;
+}
+.Contact-Me .contact input {
+    padding: 0.3rem;
+    width: 50%;
+    
+}
+.Contact-Me .contact button {
+    padding: 0.5rem 0.8rem;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    transition: 0.5s;
+}
+.Contact-Me .contact button:hover {
+    box-shadow: 4px 2px 5px #fff;
+}
+
+.social-media {
+    margin: 2rem 0;
+}
+
+.social-media h2{
+    color: #921b35;
+    border-bottom: 5px dotted #fff ;
+    display: inline-block;
+
+}
+
+.social-media button {
+    margin: 1.3rem 0.3rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    border: none;
+    transition: 0.7s;
+    
+}
+.social-media button:hover {
+    transform: scale(1.3);
+}
+
+/* Contact-Me-End */
+/* footer :start */
+.footer {
+    background-color: #1d0549;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12px;
+}
+.footer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer .float {
+    float: left;
+    width: 50%;
+    margin: 1.5rem 0;
+}
+.footer .link a {
+    display: inline-block;
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    line-height: 2rem;
+    transition: 0.5s;
+}
+.footer .link a:hover {
+    text-decoration: underline;
+    box-shadow: 2px 2px 5px #921b35;
+}
+/* footer :End */
